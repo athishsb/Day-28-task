@@ -1,0 +1,65 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap");
+
+* {
+  font-family: "Poppins", sans-serif;
+}
+body {
+  background-color: lightcyan;
+}
+.rating-color {
+  color: #fbc634 !important;
+}
+
+.small-ratings i {
+  color: #cecece;
+}
+
+.review-star {
+  font-size: 18px;
+}
+.subtotal {
+  border-top: lightgray 1px solid;
+}
+.product-img {
+  padding: 3%;
+}
+
+header,
+nav {
+  background: rgba(255, 255, 255, 0.3);
+  backdrop-filter: blur(4 px);
+  -webkit-backdrop-filter: blur(8px);
+  -webkit-box-shadow: 0px 0px 11px 4px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 0px 0px 11px 4px rgba(0, 0, 0, 0.75);
+  box-shadow: 0px 0px 11px 4px rgba(0, 0, 0, 0.75);
+}
+
+header .row {
+  padding: 5px 15%;
+}
+
+.cardcss {
+  margin-top: 10%;
+  margin-bottom: 2%;
+}
+
+@media screen and (max-width: 1280px) {
+  .cardcss {
+    margin-top: 15%;
+  }
+}
+@media screen and (max-width: 1080px) {
+  .cardcss {
+    margin-top: 15%;
+  }
+}
+@media screen and (max-width: 720px) {
+  .cardcss {
+    margin-top: 25%;
+  }
+}
+@media screen and (max-width: 480px) {
+  .cardcss {
+    margin-top: 45%;
+  }
+}
